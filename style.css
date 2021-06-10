@@ -1,0 +1,280 @@
+* 
+
+{ 
+
+    margin: 0; 
+
+    padding: 0; 
+
+  
+
+  
+
+} 
+
+  
+
+
+
+  
+
+.centered  
+
+{ 
+
+    margin-left: 20%; 
+
+    margin-right: 20%; 
+
+} 
+
+  
+
+#aboutTitle  
+
+{ 
+
+    color: white; 
+	font-size: xxx-large;
+	
+
+} 
+
+  
+
+.nav-bar 
+
+{ 
+	background-color: black;
+
+    list-style: none; 
+
+    position: relative; 
+
+    width: 100%; 
+
+} 
+
+  
+
+.nav-bar li 
+
+{ 
+
+    display: inline-block; 
+
+} 
+
+  
+
+  
+
+.nav-bar li a 
+
+{ 
+
+    color: white; 
+
+    display: block; 
+
+    text-decoration: none; 
+
+    padding: 8px 10px; 
+
+} 
+
+  
+
+.nav-bar li a:hover  
+
+{ 
+
+	background-color: grey;
+
+} 
+
+  
+
+img 
+
+{ 
+
+    width: auto; 
+
+    height: auto; 
+ 
+
+} 
+
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+  
+
+.Con  
+
+{ 
+
+    width: 90%; 
+
+    margin-top: 250px; 
+
+    margin-left: auto; 
+
+    margin-right: auto; 
+
+    margin-bottom: 50px; 
+
+    text-align: center; 
+
+     
+
+     
+
+} 
+
+  
+
+.input [type=text] 
+
+{ 
+
+    padding: 10px; 
+
+    border: 1px solid grey; 
+
+    border-radius: 3px; 
+
+    box-sizing: border-box; 
+
+    margin-top: 5px; 
+
+    margin-bottom: 15px; 
+
+    resize: vertical;     
+
+} 
+
+  
+
+.ContactForm 
+
+{ 
+
+    border-radius: 4px; 
+
+    background-color: lightgray; 
+
+    padding: 15px; 
+
+    width: 22.5%;  
+
+    margin-left: auto; 
+
+    margin-right: auto; 
+
+} 
+
+  
+
+input  
+
+{ 
+
+    display: block; 
+
+} 
+
+  
+
+label { 
+
+    display: block; 
+
+} 
+
+  
+
+.RoomPrice 
+
+{ 
+
+    font-family: sans-serif; 
+
+    border-collapse: collapse; 
+
+    color: white; 
+
+    margin-left: auto; 
+
+    margin-right: auto; 
+
+     
+
+} 
+
+  
+
+.td, th, tr 
+
+{ 
+
+    border: 3px solid ; 
+
+    padding: 10px; 
+
+     
+
+} 
+
+  
+
+iframe  
+
+{ 
+
+    margin-left: 28%; 
+
+    margin-right: 28%; 
+
+     
+
+} 
+
+  
+
+.Fac 
+
+{ 
+
+    font-family: sans-serif; 
+
+    border-collapse: collapse; 
+
+    color: white; 
+
+    text-align: center; 
+
+    margin-left: 40%; 
+
+    margin-right: 40%; 
+
+    color: black; 
+
+    width: 30%; 
+
+} 
+
+  
+
+  
+
+  
+
+
+  
