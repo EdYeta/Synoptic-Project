@@ -7,16 +7,44 @@
 <title>Information</title> 
 
 <link href="style.css" rel="stylesheet" type="text/css"> 
+<style>
+* {
+  box-sizing: border-box;
+}
 
-     
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
 
-</head> 
+.row {margin: 0 -5px;}
 
-     
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-<body> 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
-    <nav> 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(255 255 255 / 38%);
+  margin: 20px;
+  border-radius: 10px;
+}
+</style>
+
+<nav> 
 
         <ul class="nav-bar"> 
 
@@ -30,11 +58,45 @@
 
         </ul> 
 
-         
+    </nav>
+     
 
-            
+</head> 
 
-               
+     
 
-    </nav> 
+<body> 
+	<h1 id="aboutTitle" class="left" style="margin: 20px;">INFORMATION</h1>
+	<div class="row">
+	  <div class="column">
+		<div class="card">
+			<img src="transportation.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>TRANSPORTATION</p>
+			<p>&nbsp </p>
+			<p>➼ Happy </p>
+		</div>
+	  </div>
+	  <div class="column">
+		<div class="card">
+			<img src="digital.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>DIGITAL</p>
+			<p>&nbsp </p>
+			<p>➼ Happy </p>
+		</div>
+	  </div>
+	  <div class="column">
+		<div class="card"><img src="water.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>WATER</p></div>
+	  </div>
+	  <div class="column">
+		<div class="card">
+		<img src="energy.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>ENERGY</p></div>
+	  </div>
+	</div>
+	</body>
 </html>
