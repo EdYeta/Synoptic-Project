@@ -1,13 +1,64 @@
 <!DOCTYPE html> 
 
-<html>
+<html lang="en">
 
 <head> 
 
 <title>History</title> 
 
 <link href="style.css" rel="stylesheet" type="text/css"> 
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(255 255 255 / 60%);
+  margin: 20px;
+  border-radius: 10px;
+}
+</style>
+
+<nav> 
+
+	<ul class="nav-bar"> 
+
+		<li><a href="Homepage.html"> Home </a></li>  
+
+		<li class="active"><a href="Information.html" > Information </a></li> 
+
+		<li><a href="History.html">History </a></li> 
+
+		<li><a href="Food.html">  Food </a></li> 
+
+	</ul> 
+
+</nav>
      
 
 </head> 
@@ -15,26 +66,90 @@
      
 
 <body> 
+	<h1 id="aboutTitle" class="left" style="margin: 20px; text-align: center;">History</h1>
 
-    <nav> 
-
-        <ul class="nav-bar"> 
-
-            <li><a href="Homepage.html"> Home </a></li>  
-
-            <li><a href="Information.html"> Information </a></li> 
-
-            <li class="active"><a href="History.html">History </a></li> 
-
-            <li><a href="Food.html">  Food </a></li> 
-
-        </ul> 
-
-         
-
-            
-
-               
-
-    </nav> 
+	<div class="row">
+	  <div class="column">
+		<div class="card">
+			<img src="key.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>Key Events</p>
+			<p>In History</p>
+			<p>&nbsp </p>
+			<p>➼</p>
+			<p style="text-align: justify;">3000-1800 BCE - Peru was home to the Norte Chico civilization, the oldest civilisation in the Americas and one of the six oldest in the world.</a></p>
+			<p>➼</p>
+			<p style="text-align: justify;">1526-1811 - Led by Francisco Pizarro, the Spanish colonised Peru. Under Spanish rule, much of the ancient culture was lost.</p>
+			<p>➼</p>
+			<p style="text-align: justify;">1811-1824 - Peru gained independence on 28 July 1821, during the War of Independence. Spain made futile attempts to regain its former colonies and only in 1879 finally recognised Peruvian independence.</p>
+			<p>➼</p>
+			<p style="text-align: justify;">1878-1884 - Territorial disputes occurred with neighbouring countries, including the War of the Pacific and the Ecuadorian-Peruvian War (1941). The government started to initiate a number of social and economic reforms to recover from the damage of the war. Political stability was achieved only in the early 1900s.</a></p>
+			<p>➼</p>
+			<p style="text-align: justify;">1920S-1950S - The International Petroleum Company (IPC), owned by Standard Oil, acquired 50% of the Lobitos stock. The town of Lobitos and surrounding land became an enclave for British and US citizens. The British influence is evident in the town’s layout and buildings, making Lobitos unlike other Spanish colonial towns. While the foreign oil companies built much needed infrastructure, Lobitos was mainly an oil camp with a town and housing for the oil workers. The fishing community grew during this time as there was more local demand. Lobitos also became a major stopping place for large ships travelling along the coast.</a>
+			</p>
+		</div>
+	  </div>
+	  
+	  
+	  <div class="column">
+		<div class="card">
+			<img src="recent.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>Recent History</p>
+			<p>&nbsp </p>
+			<p>➼</p>
+			<p style="text-align: justify;">2008 - 2011 - ProInversión, Peru’s state agency for the promotion of private investment, announced the sale of the military base land for a large-scale US$119,000,000 tourism project to position Lobitos as an important international surf and wind surfing destination. The project was to include the construction of 400 condominiums, an 18-hole golf course, and shopping centres. The private land auction was supposed to take place in 2011 and be signed before the transition of presidential powers, but the residents of Lobitos protested because they were not included in the planning process. Lacking local support, the tourism project failed to take off.</p>
+			<p>➼</p>
+			<p style="text-align: justify;">2008 - The Association of Surfing Pros hosted an international surfing competition in Lobitos. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">2004 - Sofía Mulanovich, a Peruvian, won the World Surfing Championship title in Hawaii, which sparked a renewed national interest in the sport. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">2001 - Alejandro Toledo was elected president and ushered in a new era of political reform that involved decentralising the Peruvian government and giving more power and resources to the municipalities. With these reforms, the Peruvian government gave money collected from the oil and mining industries in each locality to the municipalities to invest in local development projects. The government, however, did not provide appropriate training in management, accountability, and transparency for public administrators, governors, and mayors. This lack of planning and oversight contributed to the prevalence of corruption and misuse of public funds at the regional and local government level. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">2000 - Fujimori won a controversial election, but amid growing allegations of corruption, he announced his resignation. </p>
+		</div>
+	  </div>
+	  
+	  
+	  <div class="column">
+		<div class="card">
+			<img src="build.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>Industries And Emplotment</p>
+			<p>&nbsp </p>
+			<p>➼</p>
+			<p style="text-align: justify;">Some residents engage in small-scale subsistence agriculture and raise goats, pigs, or chickens and sell the meat and dairy products. The people of Lobitos and Piedritas are heavily reliant on the nearest city, Talara, for buying food and goods and accessing essential services such as banks and hospitals as they are not available locally. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">Although the oil industry is one of the largest industries in Lobitos, the only residents employed work predominantly as security guards. Over the last decade, oil prices have declined severely, which has reduced the amount of oil royalties the central government can provide to the Lobitos District Municipality. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">Artisanal and commercial fishing are practiced along the coast. The Talara Provincial Municipality and Lobitos District Municipality provide some employment opportunities, including street cleaning, garbage collection, security, trades, and when available, local construction projects. Previous administrations used to hire over 50% of the population on a rotating basis throughout the year, however, the current mayor of Lobitos stopped this practice because it was financially unsustainable and fostered corruption and misuse of public funds. Opportunities for advancing individual or household economic prospects through municipal employment are limited.</p>
+			<p>➼</p>
+			<p style="text-align: justify;">Surf tourism plays a critical role in Lobitos’ economy, bringing an estimated 8,400 people to Lobitos each year and contributing a total of US $3,555,612 to the local economy. EcoSwell led a multi-stakeholder National Wave Break Protection Campaign in Lobitos, which now protects by law five of the local world class wave breaks (Piscina, Muelles, Lobitos, El Hueco, Baterías) against any potential development threats. </p>
+			</div>
+	  </div>
+	  
+	  
+	<div class="row">
+	  <div class="column">
+		<div class="card">
+			<img src="com.png" style="height: 100px;">
+			<p>&nbsp </p>
+			<p>Local Life</p>
+			<p>&nbsp </p>
+			<p>➼</p>
+			<p style="text-align: justify;">TOTAL POPULATION OF LOBITOS: 1,300</p>
+			<p>➼</p>
+			<p style="text-align: justify;">TOTAL POPULATION OF PIEDRITAS: 400</p>
+			<p>➼</p>
+			<p style="text-align: justify;">In Lobitos and Piedritas, the majority of the population speaks Spanish. In Lobitos, a small percentage of the population speaks Portuguese due to Brazilian tourists who opened businesses during the tourism boom. In addition, a small segment of the population speaks Quechua, the language of the Inca Empire and the most spoken indigenous language in the Americas. </p>
+			<p>➼</p>
+			<p style="text-align: justify;">The built environment of Lobitos and Piedritas shapes residents’ and visitors’ experience of the place. As with any setting, the built environment influences aspirations, sense of self-worth, safety and security. Both towns have evolved over time to feature both public buildings and residential homes. </p>   
+			<p>➼</p>
+			<p style="text-align: justify;">Housing - There are 102 homes in Lobitos. Piedritas is made up of 60-70 homes, with only around 2-5% of them constructed from brick. Most of the homes are single story structures made of plywood and corrugated iron, with the majority of them built using local labour. A typical household will include between five to six family members, and it is common for newly married couples to leave the family home and seek new housing. Lobitos and Piedritas are considered to be open and safe towns, although in recent years, there has been a noticeable increase in petty theft. Houses have been broken into with TVs, motorcycles, and laptops stolen. The residents have started to put up more fences, where before the spaces were very accessible. </p>
+		</div>
+	  </div>
+	</body>
+	<footer>
+	
+</footer>
 </html>
