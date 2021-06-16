@@ -41,6 +41,20 @@
   background-color: rgb(255 255 255 / 60%);
   margin: 20px;
   border-radius: 10px;
+  position: relative;
+  animation-name: slow;
+  animation-duration: 5s;
+}
+
+@keyframes slow {
+  0%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+.context li a {
+width: 100%;
+position: absolute;
+top: 50vh;
+z-index: 1;
 }
 </style>
 	
@@ -70,7 +84,7 @@
 <body> 
 	<! -- Title of the page -->
 	<h1 id="aboutTitle" class="left" style="margin: 20px; text-align: center;">INFORMATION</h1>
-	<div  style="text-align: center;">
+	<div  style="text-align: center; position: relative; animation-name: slow; animation-duration: 3s;">
 		<! -- The Donation Link -->
 		<a href="https://www.ecoswell.org/donate" style=" background-color: rgb(255 255 255 / 60%);margin: 20px;">“We make a living by what we get, but we make a life by what we give.” 
 		- Winston Churchill | Donate now!</a>
