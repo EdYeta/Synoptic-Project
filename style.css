@@ -36,6 +36,7 @@
 
     color: white; 
 	font-size: xxx-large;
+	margin: top;
 	
 
 } 
@@ -119,16 +120,7 @@
 
   
 
-img 
 
-{ 
-
-    width: auto; 
-
-    height: auto; 
- 
-
-} 
 
 body {
   background-image: url('background.png');
@@ -145,8 +137,6 @@ body {
 { 
 
     width: 90%; 
-
-    margin-top: 250px; 
 
     margin-left: auto; 
 

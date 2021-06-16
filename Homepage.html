@@ -26,26 +26,41 @@
 
 <body> 
 
-
     <div class="Con"> 
 
-        <h1 id="aboutTitle" class="centered">Welcome to Lobitos and Piedritas, Peru</h1>  
+        <h1 id="aboutTitle" class="center">Welcome to Lobitos and Piedritas, Peru</h1>  
 
     </div> 
+<a href= "Information.html" style= "color: black;">
+<div>
+  <img class="mySlides" src="Pic1.jpg" style="width: 850px; height: 500px; border: 5px solid;">
+  <img class="mySlides" src="Pic2.jpg" style="width: 850px; height: 500px;border: 5px solid;">
+  <img class="mySlides" src="Pic3.jpeg" style="width: 850px; height: 500px; border: 5px solid;">
+  <img class="mySlides" src="Pic4.jpg" style="width: 850px; height: 500px; border: 5px solid;">
+  <img class="mySlides" src="Pic5.jpg" style="width: 850px; height: 500px; border: 5px solid;">
 
-
-    <div class="Info" id="aboutLobitos"> 
-
-        <h1>Welcome to Lobitos</h1> 
-		<p> </p>
-
-    </div> 
-	
-	<div class="Info" id="aboutPiedritas">
-	
-		<h1>Welcome to Piedritas</h1>
-	</div>
-
+</div>
+</a>
 </body> 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  x[myIndex-1].style.margin = "10px auto 20px";
+  
+  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 </html> 
