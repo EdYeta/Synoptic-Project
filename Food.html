@@ -7,7 +7,55 @@
 <title>Food</title> 
 
 <link href="style.css" rel="stylesheet" type="text/css"> 
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(255 255 255 / 60%);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.restarants {
+	list-style: none;
+	}
+.restarants li {
+	margin:15px;
+.icon
+{
+	height:30px;
+	width: 30px;
+}
+
+	
+</style>
      
 
 </head> 
@@ -29,12 +77,40 @@
             <li class="active"><a href="Food.html">  Food </a></li> 
 
         </ul> 
-
-         
-
-            
-
+ 
+           
                
-
     </nav> 
+	
+	<div class="Con"> 
+
+        <h1 id="aboutTitle" class="centered">Restaurants and Food</h1>  
+
+    </div> 
+	
+	<div class="column">
+	<div class="card">
+	<p> Most of the food supply is imported into Lobitos and Piedritas. Artisanal fishing is an essential component of the local economy</p>
+	<p>&nbsp </p>
+	<p> In Lobitos and Piedritas there are many local restaurants which offer a wide range of food including traditional seafood meals and much more</p>
+	<p>&nbsp </p>
+
+	</div>
+	</div>
+	
+	<div class="column">
+	<div class="card">
+	<p>Recommended restaurants in Lobitos:</p>
+	<ul class="restarants">
+		<li> El Tranqui <a href="https://www.facebook.com/Restaurante-El-Tranqui-516632161738599/"><img src="fbicon.png" alt="Facebook" class="icon"></a> <a href="https://www.google.com/maps/place/El+Tranqui/@-4.4535229,-81.2804256,17z/data=!4m12!1m6!3m5!1s0x90365b0cc454c92b:0x351499bda0973cf1!2sEl+Tranqui!8m2!3d-4.4535115!4d-81.2782603!3m4!1s0x90365b0cc454c92b:0x351499bda0973cf1!8m2!3d-4.4535115!4d-81.2782603" target="_blank"><img src="location.png" alt="location" class="icon"></a></li>
+		<li> El Ancla  <a href="https://www.facebook.com/elanclalobitos/"><img src="fbicon.png" alt="Facebook" class="icon"></a> <a href="https://www.google.com/maps/place/El+Ancla/@-4.4550092,-81.2904383,15z/data=!4m9!1m2!2m1!1slobitos++restarants!3m5!1s0x90365bb062f3263d:0x5841381c6e9de051!8m2!3d-4.4565599!4d-81.2857457!15sChNsb2JpdG9zIHJlc3RhdXJhbnRzWhUiE2xvYml0b3MgcmVzdGF1cmFudHOaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmphVnA2ZDNkUlJSQUI" target="_blank"><img src="location.png" alt="location" class="icon"></a></li>
+		<li> Lobitos Point  <a href="https://www.facebook.com/lobitospoint?ref=py_c"><img src="fbicon.png" alt="Facebook" class="icon"></a> <a href="https://www.google.com/maps/place/Lobitos+Point/@-4.4555654,-81.2940003,15z/data=!4m9!1m2!2m1!1slobitos++restarants!3m5!1s0x90365bb0844bb84f:0xf6437fc7030bd68f!8m2!3d-4.4560629!4d-81.2854174!15sChNsb2JpdG9zIHJlc3RhdXJhbnRzWhUiE2xvYml0b3MgcmVzdGF1cmFudHOSAQpyZXN0YXVyYW50" target="_blank"><img src="location.png" alt="location" class="icon"></a></li>
+		<li> Sabor Peruano de Cora  <a href="https://www.facebook.com/SABOR-Peruano-de-CORA-538605169529572/"><img src="fbicon.png" alt="Facebook" class="icon"></a> <a href="https://www.google.com/maps/place/SABOR+Peruano+de+CORA/@-4.4550092,-81.2904383,15z/data=!4m9!1m2!2m1!1slobitos++restarants!3m5!1s0x0:0x6398d87be316a268!8m2!3d-4.4528748!4d-81.2785982!15sChNsb2JpdG9zIHJlc3RhdXJhbnRzWhUiE2xvYml0b3MgcmVzdGF1cmFudHOSAQpyZXN0YXVyYW50mgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU41ZDNaaGRDMTNSUkFC" target="_blank"><img src="location.png" alt="location" class="icon"></a></li>
+	</ul>
+	</div>
+	</div>
+	
+	
+</body>
+	
 </html>
